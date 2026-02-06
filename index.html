@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Havenora Co. - Event Planning & Management</title>
+    <link rel="icon" type="image/png" href="./assets/logo/Havenora_Co_Logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/content.css"> 
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+
+    <!-- Scripts -->
+    <script src="./js/navigation.js" defer></script>
+    <script src="./js/theme.js" defer></script>
+    <script src="./js/cards.js" defer></script>
+    <script src="./js/fadeIn.js" defer></script>
+    <script src="./js/contract.js" defer></script>
+    <script src="./js/footer.js" defer></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <a href="#home" class="logo-container">
+            <div class="logo">
+                <img class="havenoraLogo" src="./assets/logo/Havenora_Co_Logo.png" alt="H">
+            </div>
+            <div class="brand-text">
+                <div class="brand-name">HAVENORA</div>
+                <div class="brand-tagline">EVENT PLANNING</div>
+            </div>
+        </a>
+        
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#mission">Mission</a>
+            <a href="#services">Services</a>
+            <a href="#events">Events</a>
+            <a href="#team">Team</a>
+            <a href="#past-clients">Past Clients</a>
+            <a href="#community">Community</a>
+            <a href="#contact" class="contact-btn">Contact Us</a>
+        </div>
+
+        <div class="nav-controls">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero" aria-labelledby="hero-heading">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-subtitle">Welcome to</div>
+                <h1 id="hero-heading">Havenora Co.</h1>
+                <div class="hero-divider"></div>
+                <p>Creating timeless moments where comfort meets elegance. We transform your vision into unforgettable experiences through thoughtful design and heartfelt service.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn-primary">Explore Services</a>
+                    <a href="#contact" class="btn-secondary">Get Started</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section" aria-labelledby="about-heading">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <span class="section-label">Our Story</span>
+                    <h2 id="about-heading" class="section-title">The Havenora Experience</h2>
+                    <div class="title-divider"></div>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text fade-in">
+                        <p class="lead-text">Havenora is derived from "haven," a place of comfort and belonging, and "ora," meaning moment or time.</p>
+                        <p>We believe every event is a sanctuary in time—a carefully crafted space where meaningful connections flourish and lasting memories are born. Our approach combines Filipino hospitality with contemporary elegance, ensuring each gathering reflects your unique story.</p>
+                        <p>Located in the heart of Antipolo, Rizal, we bring warmth, creativity, and meticulous attention to detail to every celebration we orchestrate.</p>
+                    </div>
+                    <div class="about-image fade-in">
+                        <div class="image-frame">
+                            <img src="./assets/background/background.jfif" alt="Beautiful event setup" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission & Vision Section -->
+        <section id="mission" class="mission-section" aria-labelledby="mission-heading">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <span class="section-label">Our Purpose</span>
+                    <h2 id="mission-heading" class="section-title">Mission & Vision</h2>
+                    <div class="title-divider"></div>
+                </div>
+                <div class="mission-grid">
+                    <div class="mission-card fade-in">
+                        <div class="card-icon">
+                            <i class="fas fa-compass"></i>
+                        </div>
+                        <h3>Our Mission</h3>
+                        <p>To provide thoughtfully organized events rooted in Filipino ideals of hospitality, bayanihan, and malasakit. Through creativity and heartfelt service, we craft experiences that honor every moment and foster meaningful connections.</p>
+                    </div>
+                    
+                    <div class="mission-card fade-in">
+                        <div class="card-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Our Vision</h3>
+                        <p>To become a leading MICE events company that embodies Filipino hospitality, creating warm environments where people feel appreciated and at home. Every event becomes a sanctuary of memorable moments and cultural pride.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Values Section -->
+        <section class="values-section" aria-labelledby="values-heading">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <span class="section-label">Our Foundation</span>
+                    <h2 id="values-heading" class="section-title">Objectives</h2>
+                    <div class="title-divider"></div>
+                </div>
+                
+                <div class="values-grid">
+                    <div class="value-item fade-in">
+                        <div class="value-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <h3>Well-Organized Events</h3>
+                        <p>To plan and deliver well-organized and meaningful events</p>
+                    </div>
+                    
+                    <div class="value-item fade-in">
+                        <div class="value-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Filipino Values</h3>
+                        <p>To embrace the hospitality, malasakit, and bayanihan values of the Philippines throughout every service</p>
+                    </div>
+                    
+                    <div class="value-item fade-in">
+                        <div class="value-icon">
+                            <i class="fas fa-smile"></i>
+                        </div>
+                        <h3>Unforgettable Experience</h3>
+                        <p>To provide every guest with a warm, welcoming, and unforgettable experience</p>
+                    </div>
+                    
+                    <div class="value-item fade-in">
+                        <div class="value-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>Quality & Excellence</h3>
+                        <p>To ensure quality, creativity, and professionalism in every event</p>
+                    </div>
+                </div>
+
+                <!-- Company Work Ethics -->
+                <div class="havenora-acronym">
+                    <div class="acronym-intro fade-in">
+                        <h3>Company Work Ethics</h3>
+                        <p>Our company is committed to endorsing the highest standards of professionalism, integrity, and excellence in all aspects of our work.</p>
+                    </div>
+                    
+                    <div class="acronym-list fade-in">
+                        <div class="acronym-item">
+                            <div class="acronym-letter">H</div>
+                            <div class="acronym-meaning">Harmony in Collaboration</div>
+                        </div>
+                        
+                        <div class="acronym-item">
+                            <div class="acronym-letter">A</div>
+                            <div class="acronym-meaning">Accountability</div>
+                        </div>
+                        
+                        <div class="acronym-item">
+                            <div class="acronym-letter">V</div>
+                            <div class="acronym-meaning">Vision-Driven Excellence</div>
+                        </div>
+                        
+                        <div class="acronym-item">
+                            <div class="acronym-letter">E</div>
+                            <div class="acronym-meaning">Execution with Precision</div>
+                        </div>
+                        
+                        <div class="acronym-item">
+                            <div class="acronym-letter">N</div>
+                            <div class="acronym-meaning">Nurturing Client Trust</div>
+                        </div>
+                        
+                        <div class="acronym-item">
+                            <div class="acronym-letter">O</div>
+                            <div class="acronym-meaning">Operational Integrity</div>
+                        </div>
+                        
+                        <div class="acronym-item">
+                            <div class="acronym-letter">R</div>
+                            <div class="acronym-meaning">Responsiveness</div>
+                        </div>
+                        
+                        <div class="acronym-item">
+                            <div class="acronym-letter">A</div>
+                            <div class="acronym-meaning">Adaptability & Innovation</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section" aria-labelledby="services-heading">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <span class="section-label">What We Offer</span>
+                    <h2 id="services-heading" class="section-title">Our Services</h2>
+                    <div class="title-divider"></div>
+                    <p class="section-description">Comprehensive event solutions tailored to your vision</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-item fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <h3>Event Management</h3>
+                        <p>End-to-end planning and execution ensuring seamless coordination and successful outcomes</p>
+                    </div>
+                    
+                    <div class="service-item fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Venue Sourcing</h3>
+                        <p>Selection of perfect venues aligned with your event's theme and budget</p>
+                    </div>
+                    
+                    <div class="service-item fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>Design & Production</h3>
+                        <p>Creative décor and staging elements to enhance your event atmosphere</p>
+                    </div>
+                    
+                    <div class="service-item fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3>Catering Services</h3>
+                        <p>Exquisite culinary experiences from intimate gatherings to grand celebrations</p>
+                    </div>
+                    
+                    <div class="service-item fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Lights & Sounds</h3>
+                        <p>Professional audio-visual systems creating the perfect ambiance</p>
+                    </div>
+                    
+                    <div class="service-item fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <h3>Photography & Video</h3>
+                        <p>Capturing your precious moments with artistic excellence</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events" class="events-section" aria-labelledby="events-heading">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <span class="section-label">Event Types</span>
+                    <h2 id="events-heading" class="section-title">We Specialize In</h2>
+                    <div class="title-divider"></div>
+                </div>
+                <div class="events-grid">
+                    <div class="event-item fade-in">
+                        <div class="event-image">
+                            <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Weddings" loading="lazy">
+                        </div>
+                        <div class="event-content">
+                            <h3>Weddings</h3>
+                            <p>Dream celebrations tailored to your love story</p>
+                        </div>
+                    </div>
+                    
+                    <div class="event-item fade-in">
+                        <div class="event-image">
+                            <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Corporate Events" loading="lazy">
+                        </div>
+                        <div class="event-content">
+                            <h3>Corporate Events</h3>
+                            <p>Professional gatherings that inspire and engage</p>
+                        </div>
+                    </div>
+                    
+                    <div class="event-item fade-in">
+                        <div class="event-image">
+                            <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Celebrations" loading="lazy">
+                        </div>
+                        <div class="event-content">
+                            <h3>Celebrations</h3>
+                            <p>Milestones and moments worth remembering</p>
+                        </div>
+                    </div>
+                    
+                    <div class="event-item fade-in">
+                        <div class="event-image">
+                            <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Private Events" loading="lazy">
+                        </div>
+                        <div class="event-content">
+                            <h3>Private Events</h3>
+                            <p>Intimate gatherings crafted with care</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="team-section" aria-labelledby="team-heading">
+            <div class="section-header fade-in">
+                <span class="section-label">OUR LEADERSHIP</span>
+                <h2 id="team-heading" class="section-title">Company Executives</h2>
+                <div class="title-divider"></div>
+                <p class="section-description">Meet the visionary team behind Havenora Co.</p>
+            </div>
+            
+            <div class="team-container">
+                <div class="team-row" id="team-member-card">
+                    <!-- Team Member 1 - Chief Executive Officer-->
+                    <div class="team-member-card fade-in">
+                        <div class="member-image-container">
+                            <img src="./assets/team/Prescious Jem Dañas.jpg" alt="Chief Executive Officer" loading="lazy" class="member-image">
+                            <div class="member-overlay">
+                                <div class="member-bio">
+                                    <h3 class="member-name">Prescious Jem Dañas</h3>
+                                    <p class="member-position">Chief Executive Officer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Member 2 - Ma. lya Denise Mariñas -->
+                    <div class="team-member-card fade-in">
+                        <div class="member-image-container">
+                            <img src="./assets/team/Ma. lya Denise Mariñas.jpg" alt="Chief Operating Officer" loading="lazy" class="member-image">
+                            <div class="member-overlay">
+                                <div class="member-bio">
+                                    <h3 class="member-name">Ma. lya Denise Mariñas</h3>
+                                    <p class="member-position">Chief Operating Officer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Member 3 - Ericca Mhae Miranda-->
+                    <div class="team-member-card fade-in">
+                        <div class="member-image-container">
+                            <img src="./assets/team/Ericca Mhae Miranda.jpg" alt="Corporate Secretary" loading="lazy" class="member-image">
+                            <div class="member-overlay">
+                                <div class="member-bio">
+                                    <h3 class="member-name">Ericca Mhae Miranda</h3>
+                                    <p class="member-position">Corporate Secretary</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Member 4 - Ricelene Llave -->
+                    <div class="team-member-card fade-in">
+                        <div class="member-image-container">
+                            <img src="./assets/team/Ricelene Llave.jpg" alt="Chief Financial Officer" loading="lazy" class="member-image">
+                            <div class="member-overlay">
+                                <div class="member-bio">
+                                    <h3 class="member-name">Ricelene Llave</h3>
+                                    <p class="member-position">Chief Financial Officer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Member 5 - Ma. Paula Pagulayan -->
+                    <div class="team-member-card fade-in">
+                        <div class="member-image-container">
+                            <img src="./assets/team/Ma. Paula Pagulayan.jpg" alt="Operations Manager" loading="lazy" class="member-image">
+                            <div class="member-overlay">
+                                <div class="member-bio">
+                                    <h3 class="member-name">Ma. Paula Pagulayan</h3>
+                                    <p class="member-position">Operations Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Member 6 - Cristel Enales -->
+                    <div class="team-member-card fade-in">
+                        <div class="member-image-container">
+                            <img src="./assets/team/Cristel Enales.jpg" alt="Human Resources Officer" loading="lazy" class="member-image">
+                            <div class="member-overlay">
+                                <div class="member-bio">
+                                    <h3 class="member-name">Cristel Enales</h3>
+                                    <p class="member-position">Human Resources Officer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team Member 7 - Crisa Mae Trazo -->
+                    <div class="team-member-card fade-in">
+                        <div class="member-image-container">
+                            <img src="./assets/team/Crisa Mae Trazo.jpg" alt="Marketing Manager" loading="lazy" class="member-image">
+                            <div class="member-overlay">
+                                <div class="member-bio">
+                                    <h3 class="member-name">Crisa Mae Trazo</h3>
+                                    <p class="member-position">Marketing Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team Member 8 - Niña Angela Atanacio -->
+                    <div class="team-member-card fade-in">
+                        <div class="member-image-container">
+                            <img src="./assets/team/Niña Angela Atanacio.jpg" alt="IT Officer" loading="lazy" class="member-image">
+                            <div class="member-overlay">
+                                <div class="member-bio">
+                                    <h3 class="member-name">Niña Angela Atanacio</h3>
+                                    <p class="member-position">IT Officer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Member 9 -Kash Unica Luzuriaga -->
+                    <div class="team-member-card fade-in">
+                        <div class="member-image-container">
+                            <img src="./assets/team/Kash Unica Luzuriaga.jpg" alt="Sales Officer" loading="lazy" class="member-image">
+                            <div class="member-overlay">
+                                <div class="member-bio">
+                                    <h3 class="member-name">Kash Unica Luzuriaga</h3>
+                                    <p class="member-position">Sales Officer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Member 10 - Mnen Louis Dimla -->
+                    <div class="team-member-card fade-in">
+                        <div class="member-image-container">
+                            <img src="./assets/team/Mnen Louis Dimla.jpg" alt="Logistics and Procurement Officer" loading="lazy" class="member-image">
+                            <div class="member-overlay">
+                                <div class="member-bio">
+                                    <h3 class="member-name">Mhen Louis Dimla</h3>
+                                    <p class="member-position">Logistics and Procurement Officer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Past Clients Section -->
+        <section id="past-clients" class="past-clients-section" aria-labelledby="past-clients-heading">
+            <div class="section-header fade-in">
+                <span class="section-label">OUR PORTFOLIO</span>
+                <h2 id="past-clients-heading" class="section-title">Past Clients</h2>
+                <div class="title-divider"></div>
+                <p class="section-description">Celebrating memorable events we've brought to life</p>
+            </div>
+            
+            <div class="clients-container">
+                <div class="clients-row" id="clientsRow">
+                    <!-- Client Event 1 -->
+                    <div class="client-card fade-in">
+                        <div class="client-image-container">
+                            <img src="./assets/past clients/wedding.jpg" alt="Wedding" loading="lazy" class="client-image">
+                            <div class="client-overlay">
+                                <div class="client-info">
+                                    <h3 class="event-title">Ervin and Joanna's Wedding</h3>
+                                    <p class="event-date">November 30, 2025</p>
+                                    <p class="event-location"><i class="fas fa-map-marker-alt"></i>Shangri-La The Fort, Bonifacio Global City</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Client Event 1 -->
+                    <div class="client-card fade-in">
+                        <div class="client-image-container">
+                            <img src="./assets/past clients/chelsea.png" alt="Birthday" loading="lazy" class="client-image">
+                            <div class="client-overlay">
+                                <div class="client-info">
+                                    <h3 class="event-title">Chelsea's 18th Birthday Celebration</h3>
+                                    <p class="event-date">November 21, 2025</p>
+                                    <p class="event-location"><i class="fas fa-map-marker-alt"></i>Fernwood Gardens, Quezon City</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Client Event 3 -->
+                    <div class="client-card fade-in">
+                        <div class="client-image-container">
+                            <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Garden Wedding" loading="lazy" class="client-image">
+                            <div class="client-overlay">
+                                <div class="client-info">
+                                    <h3 class="event-title">Garden Wedding</h3>
+                                    <p class="event-date">November 20, 2023</p>
+                                    <p class="event-location"><i class="fas fa-map-marker-alt"></i>Tagaytay Highlands, Cavite</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Client Event 4 -->
+                    <div class="client-card fade-in">
+                        <div class="client-image-container">
+                            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Product Launch" loading="lazy" class="client-image">
+                            <div class="client-overlay">
+                                <div class="client-info">
+                                    <h3 class="event-title">Product Launch</h3>
+                                    <p class="event-date">October 8, 2023</p>
+                                    <p class="event-location"><i class="fas fa-map-marker-alt"></i>BGC Arts Center, Taguig</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Client Event 5 -->
+                    <div class="client-card fade-in">
+                        <div class="client-image-container">
+                            <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Birthday Celebration" loading="lazy" class="client-image">
+                            <div class="client-overlay">
+                                <div class="client-info">
+                                    <h3 class="event-title">50th Birthday Celebration</h3>
+                                    <p class="event-date">September 25, 2023</p>
+                                    <p class="event-location"><i class="fas fa-map-marker-alt"></i>The Peninsula, Makati</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Client Event 6 -->
+                    <div class="client-card fade-in">
+                        <div class="client-image-container">
+                            <img src="https://images.unsplash.com/photo-1511578194003-00c80e42dc9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Conference" loading="lazy" class="client-image">
+                            <div class="client-overlay">
+                                <div class="client-info">
+                                    <h3 class="event-title">Tech Conference 2023</h3>
+                                    <p class="event-date">August 12, 2023</p>
+                                    <p class="event-location"><i class="fas fa-map-marker-alt"></i>SMX Convention, Pasay</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Client Event 7 -->
+                    <div class="client-card fade-in">
+                        <div class="client-image-container">
+                            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Charity Gala" loading="lazy" class="client-image">
+                            <div class="client-overlay">
+                                <div class="client-info">
+                                    <h3 class="event-title">Charity Gala</h3>
+                                    <p class="event-date">July 30, 2023</p>
+                                    <p class="event-location"><i class="fas fa-map-marker-alt"></i>Shangri-La, Makati</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community Section -->
+        <section id="community" class="community-section" aria-labelledby="community-heading">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <span class="section-label">Giving Back</span>
+                    <h2 id="community-heading" class="section-title">Community Involvement</h2>
+                    <div class="title-divider"></div>
+                </div>
+                
+                <div class="community-content fade-in">
+                    <p class="lead-text">Creating impact beyond celebrations</p>
+                    <p>Guided by Filipino values of bayanihan and malasakit, we actively support local communities through our services and initiatives. We collaborate with local suppliers, artists, and professionals, helping uplift small businesses while promoting sustainable practices.</p>
+                    
+                    <div class="community-values">
+                        <div class="community-item">
+                            <i class="fas fa-hands-helping"></i>
+                            <span>Bayanihan Spirit</span>
+                        </div>
+                        <div class="community-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Malasakit</span>
+                        </div>
+                        <div class="community-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>Sustainability</span>
+                        </div>
+                        <div class="community-item">
+                            <i class="fas fa-store"></i>
+                            <span>Local Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <span class="section-label">Get In Touch</span>
+                    <h2 class="section-title">Let's Create Together</h2>
+                    <div class="title-divider"></div>
+                    <p class="section-description">Ready to plan your next unforgettable event?</p>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-form-wrapper fade-in">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                                </div>
+                                <div class="form-group">
+                                    <select id="event-type" name="event-type" required>
+                                        <option value="">Event Type</option>
+                                        <option value="wedding">Wedding</option>
+                                        <option value="corporate">Corporate</option>
+                                        <option value="birthday">Birthday</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="5" placeholder="Tell us about your event..." required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info-wrapper fade-in">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Visit Us</h4>
+                                <p>A-Sun Centre 3rd flr, 0025 M. Santos Extension, Antipolo, 1870 Rizal</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Call Us</h4>
+                                <p>+63 977 031 1583</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Email Us</h4>
+                                <p>info@havenora.co</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Office Hours</h4>
+                                <p>Mon-Fri: 9AM-6PM<br>Sat: 10AM-4PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Havenora Co.</h3>
+                    <p>Creating extraordinary moments with Filipino hospitality and heartfelt service since 2010.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#events">Events</a></li>
+                            <li><a href="#team">Team</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Event Management</a></li>
+                            <li><a href="#services">Venue Sourcing</a></li>
+                            <li><a href="#services">Catering</a></li>
+                            <li><a href="#services">Photography</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="tel:+639770311583">+63 977 031 1583</a></li>
+                            <li><a href="mailto:info@havenora.co">info@havenora.co</a></li>
+                            <li><a href="#contact">Get Quote</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© <span id="currentYear"></span> Havenora Co. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
