@@ -1,9 +1,8 @@
 /* ========================================
    FOOTER
 ======================================== */
-
 footer {
-    background: #1d1d1d;
+    background: var(--dark-blue);
     color: white;
     padding: 80px 0 30px;
 }
@@ -35,7 +34,7 @@ footer {
 
 .footer-column h4 {
     font-size: 14px;
-    color: var(--primary-gold);
+    color: var(--main-gold);
     margin-bottom: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -53,11 +52,11 @@ footer {
 .footer-column ul li a {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.7);
-    transition: var(--transition-fast);
+    transition: var(--transition);
 }
 
 .footer-column ul li a:hover {
-    color: var(--primary-gold);
+    color: var(--main-gold);
 }
 
 .footer-bottom {
@@ -92,7 +91,7 @@ footer {
 }
 
 .footer-social a:hover {
-    background: var(--primary-gold);
+    background: var(--main-gold);
     transform: translateY(-3px);
 }
 
